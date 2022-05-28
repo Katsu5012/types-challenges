@@ -1,0 +1,4 @@
+type If<R extends boolean, T, F> = R extends true ? T : F;
+
+type A = If<true, "a", "b">; // expected to be 'a'
+type B = If<false, "a", "b">;
