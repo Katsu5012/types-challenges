@@ -4,7 +4,7 @@ interface User {
   age: number;
 }
 
-type MyReadOnly<T> = {
+export type MyReadOnly<T> = {
   readonly [P in keyof T]: T[P];
 };
 
