@@ -7,7 +7,7 @@ type spaceX = [
   "HUMAN SPACEFLIGHT"
 ];
 
-type ArrayLength<T extends unknown[]> = T["length"];
+export type ArrayLength<T extends unknown[]> = T["length"];
 
 type teslaLength = ArrayLength<tesla>; // expected 4
 type spaceXLength = ArrayLength<spaceX>; // expected 5
