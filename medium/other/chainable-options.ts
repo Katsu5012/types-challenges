@@ -10,7 +10,7 @@ const result: Chainable<result> = config
   .option("name", "type-challenges")
   .option("bar", { value: "Hello World" })
   .get();
-
+const b = 0;
 console.log(a);
 console.log(a);
 console.log(a);
