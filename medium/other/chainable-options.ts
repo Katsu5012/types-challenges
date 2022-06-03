@@ -1,4 +1,4 @@
-declare const config: Chainable;
+declare const config: Chainable<T>;
 
 type Chainable<T> = {
   option(Key: string, Value: any): T;
@@ -10,10 +10,7 @@ const result: Chainable<result> = config
   .option("name", "type-challenges")
   .option("bar", { value: "Hello World" })
   .get();
-const b = 0;
-console.log(a);
-console.log(a);
-console.log(a);
+
 // expect the type of result to be:
 interface Result {
   foo: number;
