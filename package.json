@@ -6,6 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts,vue}": [
+      "eslint --fix",
+      "eslint"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Katsu5012/types-challenges.git"
@@ -15,5 +26,10 @@
   "bugs": {
     "url": "https://github.com/Katsu5012/types-challenges/issues"
   },
-  "homepage": "https://github.com/Katsu5012/types-challenges#readme"
+  "homepage": "https://github.com/Katsu5012/types-challenges#readme",
+  "dependencies": {
+    "dayjs": "^1.11.2",
+    "eslint": "^8.16.0",
+    "husky-v4": "^4.3.8"
+  }
 }
