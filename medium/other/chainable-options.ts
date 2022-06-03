@@ -13,6 +13,7 @@ const result: Chainable<result> = config
 
 console.log(a);
 console.log(a);
+console.log(a);
 // expect the type of result to be:
 interface Result {
   foo: number;
