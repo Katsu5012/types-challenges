@@ -6,4 +6,4 @@ const promise3 = new Promise<string>((resolve, reject) => {
 
 const p = Promise.all([promise1, promise2, promise3] as const);
 
-type PromiseALL<T extends Promise<any[]>>
+type PromiseALL<T extends any[]>=
