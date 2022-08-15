@@ -5,6 +5,8 @@ type Chainable<T> = {
   get(): T;
 };
 
+console.log("test");
+
 const result: Chainable<result> = config
   .option("foo", 123)
   .option("name", "type-challenges")

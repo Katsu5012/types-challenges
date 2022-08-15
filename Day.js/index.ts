@@ -19,6 +19,7 @@ class DayWrapper {
 
 const t = new DayWrapper("2021-01-01", "en");
 const t2 = new DayWrapper("2021-01-02");
+const t3 = new DayWrapper("2021-01-03");
+const t5 = new DayWrapper("2021-01-05");
 
-console.log(t.locale());
 console.log(t2.locale());
