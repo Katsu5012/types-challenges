@@ -1,6 +1,6 @@
 interface Cat {
   type: "cat";
-  breeds: "Abyssinian" | "Shorthair" | "Curl" | "Bengal";
+  breeds: "Abyssinian" | "ShortHair" | "Curl" | "Bengal";
 }
 
 interface Dog {
